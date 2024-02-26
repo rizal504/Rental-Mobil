@@ -1,0 +1,507 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Rental Mobil</title>
+  </head>
+  <body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="bg-[#F1F3FF]">
+      <!-- Nav Bar -->
+      <div class="container mx-auto sm:px-20 md:px-20">
+        <div class="flex justify-between md:gap-5 sm:py-5 py-3 items-center">
+          <div class="rounded-md bg-[#0D28A6] w-[100px] h-[40px] sm:py-1"></div>
+          <div class="flex items-center max-sm:hidden max-md:hidden">
+            <a href="#about" class="sm:mr-5 text-xl">Our Services</a>
+            <a href="#whyus" class="sm:mr-5 text-xl">Why Us</a>
+            <a href="#testimoni" class="sm:mr-5 text-xl">Testimonial</a>
+            <a href="#faq" class="sm:mr-5 text-xl">FAQ</a>
+            <button
+              class="rounded-md bg-[#5CB85F] text-xl px-3 py-2 sm:mr-5 md:mr-0 text-white hover:bg-violet-600"
+            >
+              Register
+            </button>
+          </div>
+          <div class="sm:hidden md:hidden">
+            <img src="burger.png" width="50px" height="50px" />
+          </div>
+        </div>
+      </div>
+
+      <!-- home -->
+      <div
+        class="container mx-auto sm:flex sm:flex-1 sm:items-center sm:pt-7 gap-5"
+        id="ourservise"
+      >
+        <div class="sm:pl-20 md:pl-20 pt-4">
+          <h1 class="flex md:text-4xl text-2xl font-bold">
+            Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
+          </h1>
+          <p class="justify-start py-7 text-justify">
+            Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+            terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
+            untuk sewa mobil selama 24 jam.
+          </p>
+          <button
+            class="flex item-base line rounded-md bg-[#5CB85F] px-3 py-2 text-white text-xl hover:bg-violet-600"
+          >
+            Mulai Sewa Mobil
+          </button>
+        </div>
+        <div class="pt-5">
+          <img src="mobil.png" width="1600px" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="container mx-auto" id="about">
+      <div
+        class="flex items-center flex-col py-5 sm:flex-row sm:flex flex-1 sm:px-20 sm:py-36 sm:gap-28"
+      >
+        <div class="md:w-[1000] w-[220]">
+          <img src="about.png" />
+        </div>
+        <div class="pt-5">
+          <h3 class="flex text-3xl font-bold text-center">
+            Best Car Rental for any kind of trip in (Lokasimu)!
+          </h3>
+          <p class="text-xl py-7 text-justify">
+            Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+            lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+            kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
+            meeting, dll.
+          </p>
+          <div
+            class="flex justify-start items-center sm:text-xl text-base gap-3 pb-3"
+          >
+            <img src="ceklist.png" width="25px" />Sewa Mobil Dengan Supir di
+            Bali 12 Jam
+          </div>
+          <div
+            class="flex justify-start items-center sm:text-xl text-base gap-3 pb-3"
+          >
+            <img src="ceklist.png" width="25px" />Sewa Mobil Lepas Kunci di Bali
+            24 Jam
+          </div>
+          <div
+            class="flex justify-start items-center sm:text-xl text-base gap-3 pb-3"
+          >
+            <img src="ceklist.png" width="25px" />Sewa Mobil Jangka Panjang
+            Bulanan
+          </div>
+          <div
+            class="flex justify-start items-center sm:text-xl text-base gap-3 pb-3"
+          >
+            <img src="ceklist.png" width="25px" />Gratis Antar - Jemput Mobil di
+            Bandara
+          </div>
+          <div
+            class="flex justify-start items-center sm:text-xl text-base gap-3 pb-3"
+          >
+            <img src="ceklist.png" width="25px" />Layanan Airport Transfer /
+            Drop In Out
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Us -->
+    <div class="container mx-auto sm:px-20 sm:py-20" id="whyus">
+      <h3 class="sm:flex text-3xl font-bold text-center">Why Us?</h3>
+      <p class="text-xl py-3">Mengapa harus pilih Binar Car Rental?</p>
+      <div class="grid grid-cols-4 gap-4 max-sm:grid-cols-1">
+        <div class="border-2 border-[#D0D0D0] rounded-md p-3">
+          <img src="oke.png" width="35px" height="35px" />
+          <h4 class="font-bold text-2xl py-3">Mobil Lengkap</h4>
+          <p>
+            Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
+            terawat
+          </p>
+        </div>
+        <div class="border-2 border-[#D0D0D0] rounded-md p-3">
+          <img src="harga.png" width="35px" height="35px" />
+          <h4 class="font-bold text-2xl py-3">Harga Murah</h4>
+          <p>
+            Harga murah dan bersaing, bisa bandingkan harga kami dengan rental
+            mobil lain
+          </p>
+        </div>
+        <div class="border-2 border-[#D0D0D0] rounded-md p-3">
+          <img src="jam.png" width="35px" height="35px" />
+          <h4 class="font-bold text-2xl py-3">Layanan 24 Jam</h4>
+          <p>
+            Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
+            tersedia di akhir minggu
+          </p>
+        </div>
+        <div class="border-2 border-[#D0D0D0] rounded-md p-3">
+          <img src="prof.png" width="35px" height="35px" />
+          <h4 class="font-bold text-2xl py-3">Sopir Profesional</h4>
+          <p>
+            Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat
+            waktu
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimoni -->
+    <div class="container mx-auto sm:px-20 sm:py-20 py-5" id="testimoni">
+      <div class="flex justify-center flex-col items-center">
+        <h3 class="text-3xl font-bold">Testimoni</h3>
+        <p class="text-xl py-3 text-justify">
+          Berbagai review positif dari para pelanggan kami
+        </p>
+      </div>
+      <div class="">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              text
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="flex items-center flex-col sm:flex-row border-2 bg-[#F1F3FF] border-[#D0D0D0] rounded-md p-5 sm:flex sm:flex-1 gap-3"
+              >
+                <img src="test1.png" class="sm:w-[100] w-[100]" />
+                <div
+                  class="flex flex-col sm:flex-col sm:items-start items-center"
+                >
+                  <img src="Rate.png" width="100px" />
+                  <div>
+                    <p class="py-2 text-justify">
+                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit, sed do eiusmod lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit, sed do eiusmod”
+                    </p>
+                    <h4 class="font-bold text-base">Jenifer 35, Solo</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="flex items-center flex-col sm:flex-row border-2 bg-[#F1F3FF] border-[#D0D0D0] rounded-md p-5 sm:flex sm:flex-1 gap-3"
+              >
+                <img src="test2.png" class="sm:w-[100] w-[100]" />
+                <div
+                  class="flex flex-col sm:flex-col sm:items-start items-center"
+                >
+                  <img src="Rate.png" width="100px" />
+                  <div>
+                    <p class="py-2 text-justify">
+                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit, sed do eiusmod lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit, sed do eiusmod”
+                    </p>
+                    <h4 class="font-bold text-base">Sulis 35, Solo</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="flex items-center flex-col sm:flex-row border-2 bg-[#F1F3FF] border-[#D0D0D0] rounded-md p-5 sm:flex sm:flex-1 gap-3"
+              >
+                <img src="test3.png" class="sm:w-[100] w-[100]" />
+                <div
+                  class="flex flex-col sm:flex-col sm:items-start items-center"
+                >
+                  <img src="Rate.png" width="100px" />
+                  <div>
+                    <p class="py-2 text-justify">
+                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit, sed do eiusmod lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit, sed do eiusmod”
+                    </p>
+                    <h4 class="font-bold text-base">Siti 30, Jogja</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sewa Mobil -->
+    <div class="container mx-auto sm:px-20 sm:py-20">
+      <div class="grid grid-row-1 grid-flow-row">
+        <div class="flex flex-col items-center rounded-xl py-20 bg-[#0D28A6]">
+          <h1 class="font-bold text-4xl text-white text-center">
+            Sewa Mobil di (Lokasimu) Sekarang
+          </h1>
+          <p class="py-7 text-white text-center px-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsam
+            beatae quaerat earum adipisci consequatur suscipit nulla aspernatur
+            esse harum!
+          </p>
+          <button
+            class="rounded-md bg-[#5CB85F] text-xl px-3 py-2 text-white hover:bg-yellow-400 flex"
+          >
+            Mulai Sewa Sekarang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div
+      class="container mx-auto sm:grid sm:grid-cols-2 sm:px-20 sm:py-10 py-5 gap-5"
+      id="faq"
+    >
+      <div class="">
+        <h2 class="text-xl sm:text-3xl font-bold text-center">
+          Frequently Asked Question
+        </h2>
+        <p class="text-base sm:text-xl py-7 text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae,
+          deserunt?
+        </p>
+      </div>
+      <div class="gap-3">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Apa saja syarat yang dibutuhkan?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the .accordion-flush class. This is the first item's
+                accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Berapa hari minimal sewa mobil lepas kunci?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the .accordion-flush class. This is the second
+                item's accordion body. Let's imagine this being filled with some
+                actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Berapa hari sebelumnya sabaiknya booking sewa mobil?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the .accordion-flush class. This is the third item's
+                accordion body. Nothing more exciting happening here in terms of
+                content, but just filling up the space to make it look, at least
+                at first glance, a bit more representative of how this would
+                look in a real-world application.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                Apakah Ada biaya antar-jemput?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the .accordion-flush class. This is the third item's
+                accordion body. Nothing more exciting happening here in terms of
+                content, but just filling up the space to make it look, at least
+                at first glance, a bit more representative of how this would
+                look in a real-world application.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                Bagaimana jika terjadi kecelakaan
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the .accordion-flush class. This is the third item's
+                accordion body. Nothing more exciting happening here in terms of
+                content, but just filling up the space to make it look, at least
+                at first glance, a bit more representative of how this would
+                look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footeer -->
+    <div class="container mx-auto md:px-20 md:pb-0 py-5 bg-[#F1F3FF]">
+      <div class="md:grid grid-col-4 grid-flow-col md:gap-10 md:py-10">
+        <div>
+          <div class="pb-3">
+            Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
+          </div>
+          <div class="pb-3">binarcarrental@gmail.com</div>
+          <div class="pb-5">081-233-334-808</div>
+        </div>
+        <div class="flex flex-col">
+          <a href="#about" class="pb-3">Our services</a>
+          <a href="#whyus" class="pb-3">Why Us</a>
+          <a href="#testimoni" class="pb-3">Testimonial</a>
+          <a href="#faq" class="pb-5">FAQ</a>
+        </div>
+        <div class="md:flex-col md:flex justify-start md:items-center">
+          <div>Connect with us</div>
+          <div class="flex gap-2 p-3">
+            <a href="#"
+              ><img src="facebook.png" width="35px" height="35px"
+            /></a>
+            <a href="#"
+              ><img src="instagram.png" width="35px" height="35px"
+            /></a>
+            <a href="#"><img src="twitter.png" width="35px" height="35px" /></a>
+            <a href="#"><img src="email.png" width="35px" height="35px" /></a>
+            <a href="#"><img src="pesan.png" width="35px" height="35px" /></a>
+          </div>
+        </div>
+        <div>
+          <div class="pb-3">Copyright Binar 2024</div>
+          <div class="bg-[#0D28A6] w-[100px] h-[40px]"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
